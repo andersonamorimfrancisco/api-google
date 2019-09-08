@@ -1,4 +1,4 @@
-// Importando dependentas
+// Importando dependencias
 
 const express = require("express");
 const axios = require("axios");
