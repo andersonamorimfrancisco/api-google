@@ -20,7 +20,7 @@ async function calcularDistanciasEnderecos(listaEnderecos) {
 }
 
 async function fazerRequisicao(endereco) {
-  const apiKey = "AIzaSyBDow-0L38r53OTg4sMeJrF-NQ7En5Qhc8";
+  const apiKey = "";
   const URL = `https://maps.googleapis.com/maps/api/geocode/json?address=${endereco}&key=${apiKey}`;
   const requisicao = await axios.get(URL);
   const requisicaoDados = await requisicao.data;
